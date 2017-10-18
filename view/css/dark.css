@@ -1,0 +1,200 @@
+/**
+ * css/dark.css
+ */
+
+
+
+/* COMMON ################################################################### */
+
+aside,
+section,
+footer {
+    background-color: #666666;
+}
+
+#main-nav,
+#copyright {
+    background-color: #333333;
+}
+
+aside,
+section {
+    border-top-color: #eeeeee;
+}
+
+#section-header tr,
+#section-content thead tr {
+    border-bottom-color: #eeeeee;
+}
+
+#aside-header,
+#section-header,
+footer {
+    background-color: #333333;
+    border-bottom-color: #dddddd;
+}
+
+#aside-header,
+#section-header td {
+    color: #ffffff;
+}
+
+/* end of common */
+
+
+
+/* MAIN-NAV ################################################################# */
+
+#main-nav {
+    border-bottom-color: #ffffff;
+}
+
+#main-nav h1 {
+    color: #ffffff;
+}
+
+#main-nav li .button {
+    color: #cccccc;
+}
+
+#main-nav li .button:hover,
+#main-nav li .button:active{
+    color: #ffffff;
+}
+
+#main-nav li.active .button {
+    background-color: #ffffff;
+    color: #dc143c;
+}
+
+/* end of main-nav */
+
+
+
+/* CONTENT ################################################################## */
+
+#content {
+    background-color: #dddddd;
+}
+
+/* end of content */
+
+
+
+/* SUB-NAV ################################################################## */
+
+#sub-nav .button {
+    background-color: #dddddd;
+    color: #333333;
+}
+
+#sub-nav .button:active,
+#sub-nav .button:hover {
+    color: #ffffff;
+}
+
+#sub-nav .button.active,
+#sub-nav .button.active:active,
+#sub-nav .button.active:hover {
+    color: #000000;
+}
+
+/* end of sub-nav */
+
+
+
+/* ASIDE #################################################################### */
+
+#aside-content p {
+    color: #cccccc;
+}
+
+#aside-content li p.active {
+    color: #ffffff;
+}
+
+#aside-content p:hover,
+#aside-content p:active {
+    background-color: #5e5e5e;
+    color: #ffffff;
+}
+
+/* end of aside */
+
+
+
+/* SECTION-CONTENT ########################################################## */
+
+#section-content {
+    background-color: #eeeeee;
+}
+
+#section-content th {
+    color: #eeeeee;
+}
+
+#section-content td {
+    border-top-color: #666666;
+    color: #000000;
+}
+
+#section-content tr:hover {
+    background-color: #f5f5f5;
+}
+
+#section-content tr:hover td {
+    color: #000000;
+}
+
+/* end of section-content */
+
+
+
+/* FOOTER ################################################################### */
+
+footer {
+    border-top-color: #dddddd;
+}
+
+footer > div,
+footer > div a {
+    color: #cccccc;
+}
+
+footer strong {
+    color: #ffffff;
+}
+
+footer > div a:hover,
+footer > div a:active {
+    color: #dc143c;
+}
+
+footer > div a.active {
+    color: #ffffff;
+}
+
+#range .button.active {
+    background-color: #d5d5d5;
+    color: #000000;
+}
+
+#range .button:hover {
+    color: #000000;
+}
+
+/* end of footer */
+
+
+
+/* COPYRIGHT ################################################################ */
+
+#copyright {
+    border-top-color: #ffffff;
+}
+
+#copyright p {
+    color: #ffffff;
+}
+
+/* end of copyright */

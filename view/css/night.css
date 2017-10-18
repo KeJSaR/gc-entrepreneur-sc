@@ -1,0 +1,200 @@
+/**
+ * css/dark.css
+ */
+
+
+
+/* COMMON ################################################################### */
+
+aside,
+section,
+footer {
+    background-color: #333333;
+}
+
+#main-nav,
+#copyright {
+    background-color: #222222;
+}
+
+aside,
+section {
+    border-top-color: #d5d5d5;
+}
+
+#section-header tr,
+#section-content thead tr {
+    border-bottom-color: #d5d5d5;
+}
+
+#aside-header,
+#section-header,
+footer {
+    background-color: #333333;
+    border-bottom-color: #666666;
+}
+
+#aside-header,
+#section-header td {
+    color: #ffffff;
+}
+
+/* end of common */
+
+
+
+/* MAIN-NAV ################################################################# */
+
+#main-nav {
+    border-bottom-color: #ffffff;
+}
+
+#main-nav h1 {
+    color: #ffffff;
+}
+
+#main-nav li .button {
+    color: #999999;
+}
+
+#main-nav li .button:hover,
+#main-nav li .button:active{
+    color: #ffffff;
+}
+
+#main-nav li.active .button {
+    background-color: #ffffff;
+    color: #dc143c;
+}
+
+/* end of main-nav */
+
+
+
+/* CONTENT ################################################################## */
+
+#content {
+    background-color: #666666;
+}
+
+/* end of content */
+
+
+
+/* SUB-NAV ################################################################## */
+
+#sub-nav .button {
+    background-color: #666666;
+    color: #bbbbbb;
+}
+
+#sub-nav .button:active,
+#sub-nav .button:hover {
+    color: #ffffff;
+}
+
+#sub-nav .button.active,
+#sub-nav .button.active:active,
+#sub-nav .button.active:hover {
+    color: #ffffff;
+}
+
+/* end of sub-nav */
+
+
+
+/* ASIDE #################################################################### */
+
+#aside-content p {
+    color: #cccccc;
+}
+
+#aside-content li p.active {
+    color: #ffffff;
+}
+
+#aside-content p:hover,
+#aside-content p:active {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+/* end of aside */
+
+
+
+/* SECTION-CONTENT ########################################################## */
+
+#section-content {
+    background-color: #333333;
+}
+
+#section-content th {
+    color: #333333;
+}
+
+#section-content td {
+    border-top-color: #666666;
+    color: #cccccc;
+}
+
+#section-content tr:hover {
+    background-color: #222222;
+}
+
+#section-content tr:hover td {
+    color: #ffffff;
+}
+
+/* end of section-content */
+
+
+
+/* FOOTER ################################################################### */
+
+footer {
+    border-top-color: #d5d5d5;
+}
+
+footer > div,
+footer > div a {
+    color: #cccccc;
+}
+
+footer strong {
+    color: #ffffff;
+}
+
+footer > div a:hover,
+footer > div a:active {
+    color: #dc143c;
+}
+
+footer > div a.active {
+    color: #ffffff;
+}
+
+#range .button.active {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+#range .button:hover {
+    color: #ffffff;
+}
+
+/* end of footer */
+
+
+
+/* COPYRIGHT ################################################################ */
+
+#copyright {
+    border-top-color: #ffffff;
+}
+
+#copyright p {
+    color: #ffffff;
+}
+
+/* end of copyright */

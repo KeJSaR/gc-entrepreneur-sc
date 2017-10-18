@@ -1,0 +1,219 @@
+/**
+ * css/dark.css
+ */
+
+
+
+/* COMMON ################################################################### */
+
+aside,
+section,
+footer {
+    background-color: #ffffff;
+}
+
+#main-nav,
+#copyright {
+    background-color: #f8f8f8;
+}
+
+aside,
+section {
+    border-top-color: #dddddd;
+}
+
+#section-header tr,
+#section-content thead tr {
+    border-bottom-color: #dddddd;
+}
+
+#aside-header,
+#section-header td,
+footer {
+    background-color: #ffffff;
+    border-bottom-color: #dddddd;
+}
+
+#aside-header,
+#section-header td {
+    color: #555555;
+}
+
+.theme-chooser {
+    color: #999999;
+}
+
+.theme-chooser:hover {
+    color: #666666;
+}
+
+.theme-chooser.active {
+    color: #333333;
+}
+
+.product-comment a,
+.purchase-comment a,
+.sale-comment a,
+.moving-comment a {
+    color: #333333;
+}
+
+/* end of common */
+
+
+
+/* MAIN-NAV ################################################################# */
+
+#main-nav {
+    border-bottom-color: #555555;
+}
+
+#main-nav h1 {
+    color: #555555;
+}
+
+#main-nav li .button {
+    color: #777777;
+}
+
+#main-nav li .button:hover,
+#main-nav li .button:active{
+    color: #000000;
+}
+
+#main-nav li.active .button {
+    background-color: #555555;
+    color: #ffffff;
+}
+
+/* end of main-nav */
+
+
+
+/* CONTENT ################################################################## */
+
+#content {
+    background-color: #ffffff;
+}
+
+#sub-nav-holder {
+    border-color: #dddddd;
+}
+
+/* end of content */
+
+
+
+/* SUB-NAV ################################################################## */
+
+#sub-nav .button {
+    background-color: #ffffff;
+    color: #666666;
+}
+
+#sub-nav .button:active,
+#sub-nav .button:hover {
+    color: #000000;
+}
+
+#sub-nav .button.active,
+#sub-nav .button.active:active,
+#sub-nav .button.active:hover {
+    color: #000000;
+}
+
+/* end of sub-nav */
+
+
+
+/* ASIDE #################################################################### */
+
+#aside-content p {
+    color: #555555;
+}
+
+#aside-content li p.active {
+    color: #000000;
+}
+
+#aside-content p:hover,
+#aside-content p:active {
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+/* end of aside */
+
+
+
+/* SECTION-CONTENT ########################################################## */
+
+#section-content {
+    background-color: #ffffff;
+}
+
+#section-content td {
+    border-top-color: #dddddd;
+    color: #333333;
+}
+
+#section-content tr:hover {
+    background-color: #f5f5f5;
+}
+
+#section-content tr:hover td {
+    color: #000000;
+}
+
+/* end of section-content */
+
+
+
+/* FOOTER ################################################################### */
+
+footer {
+    border-top-color: #dddddd;
+}
+
+footer > div,
+footer > div a {
+    color: #777777;
+}
+
+footer strong {
+    color: #555555;
+}
+
+footer > div a:hover,
+footer > div a:active {
+    color: #000000;
+}
+
+footer > div a.active {
+    color: #dc143c;
+}
+
+#range .button.active {
+    background-color: #dddddd;
+    color: #000000;
+}
+
+#range .button:hover {
+    color: #000000;
+}
+
+/* end of footer */
+
+
+
+/* COPYRIGHT ################################################################ */
+
+#copyright {
+    border-top-color: #555555;
+}
+
+#copyright p {
+    color: #333333;
+}
+
+/* end of copyright */

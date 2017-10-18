@@ -1,0 +1,588 @@
+/**
+ * css/style.css
+ */
+
+/* GENERAL STYLES ########################################################### */
+
+body {
+    /*display: none;*/
+    min-width: 1200px;
+    overflow-y: hidden;
+    padding-top: 60px;
+    position: relative;
+}
+
+body#page-goods.print,
+body#page-debit.print,
+body#page-credit.print,
+body#page-move.print {
+    /*display: block !important;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.button {
+    cursor: pointer;
+}
+
+#blank-screen {
+    background-color: #999999;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 3000;
+}
+
+.theme-chooser {
+    padding: 0 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* end of general styles */
+
+
+
+/* MAIN-#NAV ################################################################ */
+
+#main-nav {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#main-nav h1 {
+    float: left;
+    margin: 9px 37px 0 50px;
+    text-transform: uppercase;
+}
+
+#main-nav .left {
+    padding: 0;
+}
+
+#main-nav li {
+    display: block;
+    float: left;
+    position: relative;
+}
+
+#main-nav li .button {
+    display: block;
+    padding: 17px 23px 19px;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    -moz-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    -ms-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    -o-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    transition: background-color 500ms ease 0s, color 500ms ease 0s;
+}
+
+#main-nav ul.right {
+    margin: 0 50px 0 0;
+}
+
+/* end of main-nav */
+
+
+
+/* CONTENT ################################################################## */
+
+#content {
+    position: relative;
+}
+
+#income #sub-nav-holder,
+#outcome #sub-nav-holder,
+#settings #sub-nav-holder {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    margin-bottom: 25px;
+}
+
+#income #aside-content ul,
+#outcome #aside-content ul,
+#settings #aside-content ul {
+    padding: 0;
+}
+
+.settings-navigation {
+    background-color: #f8f8f8;
+    color: #666666;
+    display: block;
+    font-size: 28px;
+    margin: 30px 0 0;
+    padding: 80px 0;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    -moz-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    -ms-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    -o-transition: background-color 500ms ease 0s, color 500ms ease 0s;
+    transition: background-color 500ms ease 0s, color 500ms ease 0s;
+}
+
+.settings-navigation:hover {
+    background-color: #555555;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* end of content */
+
+
+
+/* SUB-NAV ################################################################## */
+
+#sub-nav {
+    height: 50px;
+    left: 80px;
+    position: absolute;
+    top: 0;
+}
+
+#sub-nav .button {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    margin: 0 40px 0 0;
+    padding: 16px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    -moz-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    -ms-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    -o-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    transition: color 500ms ease 0s, background-color 500ms ease 0s;
+}
+
+#sub-nav .left .button {
+    float: left;
+    margin: 0 40px 0 0;
+}
+
+#sub-nav .right .button {
+    float: right;
+    margin: 0 0 0 40px;
+}
+
+#sub-nav .button.active {
+    font-weight: 600;
+}
+
+#income #sub-nav,
+#outcome #sub-nav,
+#settings #sub-nav {
+    left: auto;
+    position: relative;
+    top: auto;
+}
+
+/* end of sub-nav */
+
+
+
+/* ASIDE #################################################################### */
+
+aside {
+    border-top-style: solid;
+    border-top-width: 3px;
+    left: 50px;
+    position: absolute;
+    top: 47px;
+    width: 300px;
+}
+
+#aside-header {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    height: 14px;
+    padding: 23px 5px 37px 30px;
+}
+
+#page-goods #aside-content,
+#page-debit #aside-content,
+#page-credit #aside-content,
+#page-move #aside-content {
+    left: 0;
+    position: absolute;
+    top: 63px;
+}
+
+#aside-content p {
+    margin: 0;
+    padding: 5px;
+}
+
+#aside-content ul {
+    padding: 5px 30px;
+}
+
+#aside-content ul li {
+    cursor: pointer;
+    list-style: none;
+    padding: 0 0 0 15px;
+    position: relative;
+}
+
+#aside-content ul li i {
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+
+#aside-content ul ul {
+    padding: 0 10px;
+}
+
+#aside-content li p.active {
+    font-weight: 600;
+}
+
+#aside-content.stock-movings {
+
+}
+
+#aside-content.stock-movings .radio {
+    position: relative;
+}
+
+#aside-content.stock-movings label {
+    margin: 0 0 0 40px;
+}
+
+#aside-content.stock-movings label input {
+
+}
+
+#aside-content.stock-movings label span {
+
+}
+
+#move-up {
+    left: 0;
+    position: absolute;
+    top: 4px;
+    cursor: pointer;
+}
+
+#move-down {
+    left: 18px;
+    position: absolute;
+    top: 4px;
+    cursor: pointer;
+}
+
+#aside-content.stock-movings i:hover,
+#aside-content.stock-movings i:active {
+    color: red;
+}
+
+
+/* end of aside */
+
+
+
+/* SECTION ################################################################## */
+
+section {
+    border-top-style: solid;
+    border-top-width: 3px;
+    left: 350px;
+    position: absolute;
+    top: 47px;
+}
+
+#section-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#section-header tr,
+#section-content thead tr {
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+#section-header td,
+#section-content thead th {
+    box-sizing: initial !important;
+    height: 60px;
+    padding: 0 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#page-goods #section-content,
+#page-debit #section-content,
+#page-credit #section-content,
+#page-move #section-content {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* DATA */
+
+#section-content table {
+    width: 100%;
+}
+
+#section-content th,
+#section-content td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#section-content td {
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding: 8px;
+}
+
+#section-content tr:first-child td {
+    border-top: none;
+}
+
+#section-header tr td:last-child,
+#section-content tr th:last-child,
+#section-content tr td:last-child {
+    text-align: center;
+}
+
+#page-goods #section-header tr td:nth-last-child(2),
+#page-goods #section-content tr th:nth-last-child(2),
+#page-goods #section-content tr td:nth-last-child(2),
+#page-debit #section-header tr td:nth-last-child(2),
+#page-debit #section-content tr th:nth-last-child(2),
+#page-debit #section-content tr td:nth-last-child(2),
+#page-debit #section-header tr td:nth-last-child(3),
+#page-debit #section-content tr th:nth-last-child(3),
+#page-debit #section-content tr td:nth-last-child(3),
+#page-debit #section-header tr td:nth-last-child(4),
+#page-debit #section-content tr th:nth-last-child(4),
+#page-debit #section-content tr td:nth-last-child(4),
+#page-credit #section-header tr td:nth-last-child(2),
+#page-credit #section-content tr th:nth-last-child(2),
+#page-credit #section-content tr td:nth-last-child(2) {
+    text-align: right;
+}
+
+#page-goods #section-header tr td:nth-child(1),
+#page-goods #section-content tr th:nth-child(1),
+#page-goods #section-content tr td:nth-child(1) {
+    text-align: left;
+}
+
+#page-goods #section-header tr td:nth-child(2),
+#page-goods #section-content tr th:nth-child(2),
+#page-goods #section-content tr td:nth-child(2) {
+    text-align: right;
+}
+
+#page-debit #section-header tr td:nth-child(1),
+#page-debit #section-content tr th:nth-child(1),
+#page-debit #section-content tr td:nth-child(1),
+#page-credit #section-header tr td:nth-child(1),
+#page-credit #section-content tr th:nth-child(1),
+#page-credit #section-content tr td:nth-child(1),
+#page-move #section-header tr td:nth-child(1),
+#page-move #section-content tr th:nth-child(1),
+#page-move #section-content tr td:nth-child(1) {
+    text-align: center;
+}
+
+#page-debit #section-header tr td:nth-child(2),
+#page-debit #section-content tr th:nth-child(2),
+#page-debit #section-content tr td:nth-child(2),
+#page-credit #section-header tr td:nth-child(2),
+#page-credit #section-content tr th:nth-child(2),
+#page-credit #section-content tr td:nth-child(2),
+#page-move #section-header tr td:nth-child(2),
+#page-move #section-content tr th:nth-child(2),
+#page-move #section-content tr td:nth-child(2) {
+    text-align: left;
+}
+
+#page-debit #section-header tr td:nth-child(3),
+#page-debit #section-content tr th:nth-child(3),
+#page-debit #section-content tr td:nth-child(3),
+#page-credit #section-header tr td:nth-child(3),
+#page-credit #section-content tr th:nth-child(3),
+#page-credit #section-content tr td:nth-child(3),
+#page-move #section-header tr td:nth-child(3),
+#page-move #section-content tr th:nth-child(3),
+#page-move #section-content tr td:nth-child(3) {
+    text-align: right;
+}
+
+
+#page-credit #section-header tr td:nth-child(4),
+#page-credit #section-content tr th:nth-child(4),
+#page-credit #section-content tr td:nth-child(4) {
+    text-align: right;
+}
+
+.danger tr,
+.danger td,
+.danger th {
+    background-color: #f2dede;
+}
+
+#prices span {
+    color: #444444;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 0 0 0 15px;
+    text-align: center;
+    width: 60px;
+    -webkit-transition: color 500ms ease 0s;
+    -moz-transition: color 500ms ease 0s;
+    -ms-transition: color 500ms ease 0s;
+    -o-transition: color 500ms ease 0s;
+    transition: color 500ms ease 0s;
+}
+
+#prices span:hover {
+    color: blue;
+    font-size: 16px;
+}
+
+#prices .active,
+#prices .active:hover,
+#prices .active:active {
+    color: #000000;
+    font-size: 18px;
+}
+
+#purchase-info span {
+    font-size: 16px;
+}
+
+#in-total td {
+    border-top: 3px solid;
+    font-weight: bold !important;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#in-total .name {
+    text-align: right !important;
+}
+
+/* end of section */
+
+
+
+/* FOOTER ################################################################### */
+
+footer {
+    border-top-style: solid;
+    border-top-width: 3px;
+    bottom: 0;
+    height: 27px;
+    left: 50px;
+    position: absolute;
+}
+
+#range {
+    margin: 0 30px;
+    position: relative;
+}
+
+footer > div {
+    margin: 6px 30px 0;
+}
+
+footer .button {
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    padding: 6px 13px;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    -moz-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    -ms-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    -o-transition: color 500ms ease 0s, background-color 500ms ease 0s;
+    transition: color 500ms ease 0s, background-color 500ms ease 0s;
+}
+
+footer .right a {
+    padding: 0 5px;
+}
+
+/* end of footer */
+
+
+
+/* COPYRIGHT ################################################################ */
+
+#copyright {
+    border-top-style: solid;
+    border-top-width: 5px;
+    bottom: 0;
+    height: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#copyright p {
+    padding: 4px 50px 0;
+}
+
+/* end of copyright */
+
+
+
+
+
+.th-s {
+    background-color: #ffffff;
+    border-right: 3px solid #cccccc;
+}
+
+.th-m {
+    background-color: #ffffff;
+    border-right: 3px solid #cccccc;
+}
+
+.th-t {
+    background-color: #ffffff;
+}
